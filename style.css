@@ -71,9 +71,19 @@ header {
     background-color: #161616;
     padding: 20px;
     margin: 0;
+    border: none;
+    display: flow-root;
+    
     /*
     border: 1px solid #ff0000;
     */
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 footer {
@@ -89,7 +99,12 @@ footer {
 
 
 .container {
+    border: none;
+    margin: 0;
+    padding-top: 0;
     background-color: #313131;
+
+    display: flow-root;
 
     /*
     border: 3px solid #15ff00;
