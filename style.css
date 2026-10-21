@@ -182,18 +182,72 @@ blockquote{
 }
 
 
-/* contact section*/
-
-
-table, th, td {
-
-    border: 4px solid black;
-
+/* About page author information table */
+.table-container {
+    width: 100%;
+    min-height: calc(100vh - 140px);
+    padding: 40px 20px;
+    background-color: #313131;
+    text-align: center;
 }
 
-.table-container{
+.table-container h2 {
+    margin-bottom: 12px;
+    color: #d9dde3;
+    font-size: 30px;
+}
 
-    border: 2px solid #fc4c4c;
+.table-container > p {
+    margin-bottom: 24px;
+}
+
+.table-scroll {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.about-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #161616;
+    color: #d9dde3;
+    text-align: left;
+}
+
+.about-table caption {
+    padding: 12px;
+    color: #d9dde3;
+    text-align: left;
+}
+
+.about-table th,
+.about-table td {
+    padding: 14px 16px;
+    border: 1px solid #555;
+}
+
+.about-table thead th {
+    background-color: #252525;
+}
+
+.about-table tbody th {
+    white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+    .table-container {
+        padding: 32px 12px;
+    }
+
+    .table-container h2 {
+        font-size: 24px;
+    }
+
+    .about-table {
+        min-width: 600px;
+    }
 }
 
 
