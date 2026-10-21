@@ -98,6 +98,13 @@ footer {
     */
 }
 
+section img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
 aside {
     text-align: center;
 }
@@ -176,6 +183,19 @@ blockquote{
 
 
 /* contact section*/
+
+
+table, th, td {
+
+    border: 4px solid black;
+
+}
+
+.table-container{
+
+    border: 2px solid #fc4c4c;
+}
+
 
 /* Área externa do formulário */
 #form-container {
